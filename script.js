@@ -146,7 +146,7 @@ function loadCSVAndReplaceDiv(csvFilePath, targetDivId) {
                     if (personCounter % 3 === 0) {
                         // Create a new "row" div and append it to the body
                         bookContainer.appendChild(currentRow);
-                        if (i != rows.length) {
+                        if (i != rows.length-1) {
                             currentRow = createNewRow();
                         }
                     }
